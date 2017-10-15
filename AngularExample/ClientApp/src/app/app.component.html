@@ -1,0 +1,7 @@
+<div *ngFor="let item of dataService.data">{{item}}<button (click)="removeItem(item)">Remove</button></div>
+
+<!--<form [formGroup]="form" (ngSubmit)="addItem(form.value)">
+    <div>
+        <input type="text" formControlName="item" /><input type="submit" value="Add" [disabled]="!form.valid" />
+    </div>
+</form>-->
